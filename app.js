@@ -45,7 +45,7 @@ app.use("/upload", uploadRoutes)
 
 
 mongoose
-  .connect("mongodb://127.0.0.1/lamya")
+  .connect("mongodb+srv://lamyapatel23:root@cluster0.hmm4agw.mongodb.net/lamya")
   .then(() => {
     console.log("DB connected");
   })
