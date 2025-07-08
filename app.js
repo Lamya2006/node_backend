@@ -16,7 +16,7 @@ const Redis = require("ioredis")
 const http = require("http")
 const server = http.createServer(app)
 const {Server} = require("socket.io")
-
+console.log("hellooo")
 
 const io = new Server(server,{
   cors:{
